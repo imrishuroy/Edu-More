@@ -1,0 +1,22 @@
+// code for delete a user while deleting firestore document
+
+const functions = require("firebase-functions");
+const admin = require("firebase-admin");
+admin.initializeApp();
+
+// // Create and Deploy Your First Cloud Functions
+// // https://firebase.google.com/docs/functions/write-firebase-functions
+//
+exports.helloWorld = functions.https.onRequest((request, response) => {
+  functions.logger.info("Hello logs!", {structuredData: true});
+  response.send("Hello from Firebase!");
+});
+
+
+exports.deleteUser = functions.firestore
+    .document("users/{userID}")
+    .onDelete((snap, context) => {
+      return admin.auth().deleteUser(snap.id)
+          .then(() => console.log("Deleted user with ID:" + snap.id))
+          .catch((error) => console.error("Error deleting user:", error));
+    });

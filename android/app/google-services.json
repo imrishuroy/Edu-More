@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1099116994784",
+    "project_id": "edu-more",
+    "storage_bucket": "edu-more.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099116994784:android:f77b573b04e1af903db085",
+        "android_client_info": {
+          "package_name": "com.sixteenbrains.edu_more"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099116994784-qvtteu2igdlv6ekg7gfncsskcg13pka4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixteenbrains.edu_more",
+            "certificate_hash": "c1e3ed2d56469c9d9820a1c991e84ee2c96966bb"
+          }
+        },
+        {
+          "client_id": "1099116994784-ak505pu3l4te6emc80djrhkk7f9kvmge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhBEsgHV0CCtkQIn9P9ys8wLj8NM2H8VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099116994784-ak505pu3l4te6emc80djrhkk7f9kvmge.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1099116994784-l2dac2aisimd8og4pthvbgjft2div6lp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sixteenbrains.eduMore"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

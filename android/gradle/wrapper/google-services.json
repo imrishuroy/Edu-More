@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1099116994784",
+    "project_id": "edu-more",
+    "storage_bucket": "edu-more.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099116994784:android:f77b573b04e1af903db085",
+        "android_client_info": {
+          "package_name": "com.sixteenbrains.edu_more"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099116994784-198ncm65h9ao1ci9giib4hdaesd6db11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixteenbrains.edu_more",
+            "certificate_hash": "4533cc06fec68556d11d37611dade95b8e2730e8"
+          }
+        },
+        {
+          "client_id": "1099116994784-ak505pu3l4te6emc80djrhkk7f9kvmge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhBEsgHV0CCtkQIn9P9ys8wLj8NM2H8VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099116994784-ak505pu3l4te6emc80djrhkk7f9kvmge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
